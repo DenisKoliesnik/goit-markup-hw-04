@@ -49,6 +49,8 @@ p {
 
 .link {
   text-decoration: none;
+  position: relative;
+  color: #404bbf; 
 }
 .list {
   list-style: none;
@@ -466,14 +468,14 @@ height: 88px;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons-link:hover,
 .footer-icons-link:focus {
-  background-color: #31d0aa;
+  background-color:#31d0aa
 }
 .footer-social-icons {
-  fill: var(--cloud);
+  fill: #f4f4fd 
 }
 
 .footer-name {
