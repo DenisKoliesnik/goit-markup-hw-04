@@ -156,11 +156,16 @@ p {
   padding-top: 0;
 }
 .title {
-  background-image: url(../images/fone.jpg);
+  background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)),   url(../images/fone.jpg);
 
   block-size: cover;
   padding: 188px 0;
   background-color: var(--navy-blye);
+  max-width: 1440px;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
 }
 .title-text {
   max-width: 496px;
