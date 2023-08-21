@@ -646,7 +646,6 @@ p {
   position: relative;
   overflow: hidden;
 }
-
 .project-overlay {
   color: var(--cloud, #f4f4fd);
 
