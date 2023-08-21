@@ -117,23 +117,30 @@ p {
 
 .nav-item::after
 {
-  display: flex;
-  left: 0;
   position: absolute; 
-  width: 48px;
+  left: 0;
+  content: "";
+  opacity: 0;
+  width: 100%;
   height: 4px; 
   bottom: -1px;
-  height: 4px;
+  color: var(--ocean) ;
   background-color: #404bbf; 
   border-radius: 2px;
-  
-  content: "";
   margin-top:  20px;
+  
+  
 }
 
-.nav-item:hover,
-.nav-item:focus {
-  color: #404bbf;
+
+.nav-item:hover::after,
+.nav-item:focus::after,
+.nav-item.current::after {
+	opacity: 1;
+}
+
+.nav-item.current{
+	color: #404bbf;
 }
 
 .nav-item:active {
