@@ -676,8 +676,8 @@ p {
   background-color: var(--WHITE);
 }
 .img-link {
+  display: block;
   width: 360px;
-  height: 300px;
 }
 .portfolio-text {
   margin-bottom: 8px;
