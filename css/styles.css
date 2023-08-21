@@ -617,6 +617,10 @@ p {
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn:hover,
 .btn:focus {
@@ -625,6 +629,10 @@ p {
   border: 1px solid transparent;
   color: var(--WHITE);
   background-color: #404bbf;
+  transition: color 850ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-btm {
   display: flex;
@@ -647,7 +655,7 @@ p {
   overflow: hidden;
 }
 .project-overlay {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   padding: 40px 32px;
   font-size: 16px;
   line-height: 1.5;
